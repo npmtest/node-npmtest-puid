@@ -1,6 +1,6 @@
 # npmtest-puid
 
-#### test coverage for  [puid (v1.0.7)](https://github.com/pid/puid#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-puid.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-puid) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-puid.svg)](https://travis-ci.org/npmtest/node-npmtest-puid)
+#### basic test coverage for  [puid (v1.0.7)](https://github.com/pid/puid#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-puid.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-puid) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-puid.svg)](https://travis-ci.org/npmtest/node-npmtest-puid)
 
 #### Generate an unique ID for use in a distributed environment.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-puid/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-puid/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-puid/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-puid/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-puid/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-puid/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-puid/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-puid/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-puid/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-puid/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-puid/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-puid/build/coverage.html/index.html)
 
@@ -94,7 +94,8 @@
     "scripts": {
         "test": "./node_modules/mocha/bin/mocha -R spec"
     },
-    "version": "1.0.7"
+    "version": "1.0.7",
+    "bin": {}
 }
 ```
 
